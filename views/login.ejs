@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>innoqon login page</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: 'Inter', sans-serif;
+        /* overflow: hidden; */
+    }
+    .left{
+    background: rgb(218, 194, 220);
+    width:380px;
+    height:650px;
+    }
+   .left h1{
+    position: absolute;
+    top:170px;
+    left:82px;
+    font-size:30px;
+    font-family: cursive;
+    color: rgba(252, 252, 252, 0.861);
+   }
+   .left h3{
+    position: absolute;
+    top:220px;
+    left:120px;
+    font-size:17px;
+    color: #fff;
+   }
+   .left p{
+    position: absolute;
+    top: 270px;
+    left:65px;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    margin:5px;
+    font-weight: bold;
+    line-height:23px;
+   }
+   .right{
+    position: absolute;
+    top:80px;
+    left:54%;
+   }
+   .right h1{
+    font-family: 'Inter', sans-serif;
+    font-size:31px;
+    font-style: normal;
+    color: rgb(47, 47, 47);
+    margin-top: 13px;
+    position: absolute;
+    left:17%;
+
+   }
+   input{
+    width:150%;
+    margin: 10px;
+    padding:12px;
+    border:1px solid rgb(192, 192, 192);
+    border-radius:3px;
+    outline: none;
+    position: relative;
+    top:130px;
+    right:100px;
+   }
+   input:hover{
+   border: 1.4px solid rgb(194, 194, 194);
+   }
+ .email{
+    position: relative;
+    top:130px;
+    right:80px;
+ }
+.pass{
+    position: relative;
+    top:130px;
+    right:80px;
+}
+.login{
+    margin: 10px;
+     padding: 12px;
+     background-color: rgb(129, 201, 234);
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    position: absolute;
+    top:178%;
+    right:20px;
+    
+}
+.login a{
+   text-decoration: none;
+   color: #fff;
+   font-size: 14px;
+
+}
+.login:hover{
+ background-color:rgb(181, 181, 181);
+
+}
+hr{
+   color: rgba(154, 154, 154, 0.737);
+   top: 100%;
+}
+.google{
+    position: absolute;
+    top:230%;
+    right:10px;
+    padding:8px;
+    margin: 14px;
+    border: none;
+    border-radius: 5px;
+    width:100%;
+    background-color: rgba(255, 255, 255, 0.589);
+}
+.google:hover{
+   border: 1px solid rgb(70, 69, 69);
+}
+.google img{
+   width:23px;
+   float: left;
+}
+.google a{
+   text-decoration: none;
+   color:rgba(41, 41, 41, 0.904) ;
+   font-size: 14px;
+}
+</style>
+<body>
+    <section class="LOGIN">
+        <div class="left">
+            <h1>Welcome back !</h1>
+            <h3>Glad to help</h3>
+
+            <p>"There is only one thing that matters<br> for us CUSTOMER SATISFACTION".</p>
+        </div>
+
+        <div class="right">
+            <img src="" alt="logo">
+            <h1>Sign In</h1>
+            <p class="email"> Email Address</p>
+            <input type="email" name="email" id="email">
+            <p class="pass">Password</p>
+            <input type="password" name="pass" id="pass">
+            <a href="#" class="forgot pass">Forgot Password</a>
+
+            <button class="login"><a href="#">Sign In</a></button>
+           
+            <button class="google"><img src="google.png" alt=""><a href="#">Sign in with Google</a></button>
+        </div>
+        
+    </section>
+</body>
+</html>
